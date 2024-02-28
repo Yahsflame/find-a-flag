@@ -1,8 +1,13 @@
-# React + Vite
+# Find A Flag 3000
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This projects provides a idea into my approach with regards to project setup, UI design, and general best practices.
 
-Currently, two official plugins are available:
+## To get started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Download the repo;
+- run `npm install` in the root (npm/node are running on 8.5.5 and 16.15.0 respectively);
+- run `npm run dev` to spin up the frontend from the root folder;
+- run `node index.js` to spin up the backend service from the `server` folder (this service runs on port 3001)
+- After this, you should be good to navigate to the project in your browser and interact accordingly.
+
+**NOTE** -- You can run `npm test` to run the small suite of tests for the FE from the root folder.
