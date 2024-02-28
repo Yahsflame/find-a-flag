@@ -1,5 +1,5 @@
 import React from 'react';
-import DataTable from "../components/Datatable";
+import DataTable from "../components/DataTable";
 import BarChart from '../components/BarChart';
 import { useCountryContext } from '../contexts/CountryContext';
 
